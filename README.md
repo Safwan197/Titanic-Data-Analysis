@@ -1,37 +1,30 @@
-🚢 Titanic Data Analysis
+# 🌊 Titanic Data Analysis
 
-This project performs basic Exploratory Data Analysis (EDA) on the Titanic dataset using Python.
+A Python-based Exploratory Data Analysis (EDA) project on the Titanic dataset to understand factors affecting passenger survival.
 
-🔧 Libraries Used
+## ✨ Features
+###   Module	Description
+Data Loading	Load **titanic_train.csv** using **Pandas**
+Missing Data Analysis	Check and visualize missing values with heatmaps
+Data Cleaning	Impute missing Age values, drop Cabin column
+Visualizations	Survival count, survival by gender, survival by passenger class
+Categorical Encoding	Convert Sex and Embarked to numerical values using get_dummies()
+Insights	Identify key factors affecting survival
 
-Pandas
+## 🏛️ System Architecture
 
-NumPy
+**Python (Pandas, NumPy, Matplotlib, Seaborn)**
+│
+▼
+EDA & Visualization
 
-Matplotlib
+## 🧱 Project Structure
+Titanic-EDA/
+│
+├── titanic_train.csv          # Dataset
+├── Titanic_Analysis.ipynb    # Main Notebook
+└── README.md                 # Project Documentation
 
-Seaborn
+## 🔑 Dataset
 
-📂 Main Steps
-
-Loaded titanic_train.csv
-
-Checked and visualized missing data
-
-Filled missing Age values based on passenger class
-
-Dropped the Cabin column
-
-Performed visualizations:
-
-Survival count
-
-Survival by gender
-
-Survival by passenger class
-
-Converted categorical columns (Sex, Embarked) using get_dummies()
-
-📈 Goal
-
-To understand key factors affecting Titanic passenger survival and prepare the data for further analysis or modeling.
+Make sure titanic_train.csv is included in the repository to run the analysis.
